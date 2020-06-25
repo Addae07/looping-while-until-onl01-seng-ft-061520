@@ -7,3 +7,7 @@ describe "#using_while" do
 	expect{ using_while }.to output(looping_string).to_stdout
 	end
 end
+      while levitation_force < 10
+      puts 'Wingardium Leviosa'
+  levitation_force += 1
+  end
